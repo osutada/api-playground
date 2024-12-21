@@ -11,10 +11,8 @@ const sendChatWorkPost = (message) => {
     return;
   }
 
-  // CHATWORKのAPIトークン
-  const CHATWORK_API_TOKEN = "***";
-  // CHATWORKのルームID
-  const CHATWORK_ROOM_ID = "***";
+  const CHATWORK_API_TOKEN = "***"; // 自分のAPIトークンに置き換える
+  const CHATWORK_ROOM_ID = "***"; // 自分のルームIDに置き換える
   // エンドポイント
   const MESSAGE_POST_ENDPOINT = `https://api.chatwork.com/v2/rooms/${CHATWORK_ROOM_ID}/messages`;
 

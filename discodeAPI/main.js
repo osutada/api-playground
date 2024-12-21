@@ -10,8 +10,7 @@ const sendDiscodePost = (message) => {
     return;
   }
 
-  // DISCODEのWebhook URL
-  const DISCODE_WEBHOOK_URL = "***";
+  const DISCODE_WEBHOOK_URL = "***"; // 自分のWebhook URLに置き換える
 
   // HTTPリクエストのオプション
   const options = {
